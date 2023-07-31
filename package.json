@@ -5,13 +5,17 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "lint": "eslint --ext .jsx --fix src",
     "build": "vite build",
     "preview": "vite preview",
     "test": "vitest run"
   },
   "dependencies": {
+    "eslint": "^8.46.0",
+    "eslint-plugin-react": "^7.33.1",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "vite-plugin-eslint": "^1.8.1"
   },
   "devDependencies": {
     "@testing-library/jest-dom": "^5.16.5",
