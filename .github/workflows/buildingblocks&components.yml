@@ -1,4 +1,4 @@
-name: Deployment Test
+name: Building Blocks & Components
 on: push
 jobs:
   lint:
