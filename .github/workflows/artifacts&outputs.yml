@@ -2,7 +2,7 @@ name: Artifacts
 on:
   push:
     branches:
-      - artifacts&outputs
+      - main
 jobs:
   test:
     runs-on: ubuntu-latest
