@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 name: Workflows and Events
 on:
   pull_request:
@@ -9,6 +10,10 @@ on:
   push:
     branches:
       - main
+=======
+name: Events
+on: push
+>>>>>>> 37748b1e4d665ed8e4a928e8bc1d223f109123b9
 jobs:
   deploy:
     runs-on: ubuntu-latest
