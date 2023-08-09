@@ -1,14 +1,5 @@
-name: Workflows and Events
-on:
-  pull_request:
-    types:
-      - opened
-    branches:
-      - main  
-  workflow_dispatch:
-  push:
-    branches:
-      - main 
+name: Events
+on: push
 jobs:
   deploy:
     runs-on: ubuntu-latest
