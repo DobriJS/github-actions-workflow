@@ -2,7 +2,7 @@ name: Conditional flow
 on:
   push:
     branches:
-      - main
+      - demo/conditional-flow
     paths-ignore:
       - '.github/workflows/events.yml'
 jobs:
