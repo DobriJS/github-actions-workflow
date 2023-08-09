@@ -2,7 +2,7 @@ name: Website Deployment
 on:
   push:
     branches:
-      - demo/conditional-flow
+      - main
     paths-ignore:
       - '.github/workflows/events.yml'
 jobs:
